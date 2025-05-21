@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
+title: Data Science Dashboard
+description: An ML tool that compares a photo with what's being captured by the camera to check the possibility of a match, this can be used for security and enforcement.
+date: 2025-04-8
+image:  
+category: Development
+site: https://3dgenai.eejay.me/
+author:
+ name: Juan Carlos de Borja
+ role: Developer and Author
+ avatar: https://github.com/ttv-voidgg.png  
+---
 
-## Getting Started
+# Face Match: Webcam vs Uploaded Image
 
-First, run the development server:
+A browser-based machine learning tool that compares an uploaded photo with what's being captured by your webcam in real-time. Designed for potential applications in security, verification, and enforcement.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Live Demo**: [https://mlcam.eejay.me/](https://mlcam.eejay.me/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Real-Time Face Verification** – Match a static image with webcam feed.
+- **Facial Attribute Detection** – Detects age, gender, and expressions.
+- **Client-Side Processing** – All ML tasks run entirely in your browser.
+- **Built with TensorFlow.js & face-api.js** – No backend needed.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 How It Works
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Upload a **reference image** (clear face image).
+2. Allow webcam access when prompted.
+3. Position your face in the camera view.
+4. The tool compares the live feed to the uploaded image and shows the match status.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Technology Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [TensorFlow.js](https://www.tensorflow.org/js) – ML in the browser
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js) – Face detection and recognition
+- HTML5, JavaScript (ES6+), and WebRTC
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔐 Privacy First
+
+- **100% Local** – No image or data ever leaves your device.
+- **No Server Communication** – Everything runs in-browser.
+
+---
+
+## 🛠️ Troubleshooting
+
+- Ensure browser has webcam permissions.
+- Use a modern browser like Chrome or Firefox.
+- Make sure your face is well-lit and facing forward.
