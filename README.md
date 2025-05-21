@@ -4,7 +4,7 @@ description: An ML tool that compares a photo with what's being captured by the 
 date: 2025-04-8
 image:  
 category: Development
-site: https://3dgenai.eejay.me/
+site: https://mlcam.eejay.me
 author:
  name: Juan Carlos de Borja
  role: Developer and Author
