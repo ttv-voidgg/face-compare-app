@@ -2,7 +2,6 @@
 title: Face Match Security Cam Addon
 description: An ML tool that compares a photo with what's being captured by the camera to check the possibility of a match, this can be used for security and enforcement.
 date: 2025-04-8
-image:  
 category: Development
 site: https://mlcam.eejay.me
 author:
